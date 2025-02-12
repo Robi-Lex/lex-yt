@@ -1,0 +1,53 @@
+
+body {
+   font-family: 'Poppins', sans-serif;
+   background: linear-gradient(to right, #f5e72c, #ff7eb3);
+   color: white;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+
+.container {
+   background: rgba(255, 255, 255, 0.2);
+   padding: 20px;
+   border-radius: 20px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+   font-size: 2.5em;
+   font-family: 'Dancing Script', cursive;
+}
+
+.btn {
+   margin-top: 20px;
+}
+
+a {
+   text-decoration: none;
+   font-size: 1.5em;
+   padding: 10px 20px;
+   border-radius: 10px;
+   transition: all 0.3s ease-in-out;
+   display: inline-block;
+}
+
+.yes-btn {
+   background-color: #ff4d6d;
+   color: white;
+   font-weight: bold;
+}
+
+.no-btn {
+   background-color: #444;
+   color: white;
+   position: absolute;
+}
+
+.yes-btn:hover {
+   background-color: #ff2d55;
+}
